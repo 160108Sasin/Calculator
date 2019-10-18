@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/firstNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your first number"/>
+
+    <EditText
+        android:id="@+id/secondNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your second number"/>
+
+    <TextView
+        android:id="@+id/resultView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="2sp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:hint="Show result"/>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#d4e6f1"
+            android:textColor="#212f3d"
+            android:layout_margin="5dp"
+            android:text="+" />
+
+
+        <Button
+            android:id="@+id/btnSub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#d4e6f1"
+            android:textColor="#212f3d"
+            android:layout_margin="5dp"
+            android:text="-" />
+
+
+        <Button
+            android:id="@+id/btnMulti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#d4e6f1"
+            android:textColor="#212f3d"
+            android:layout_margin="5dp"
+            android:text="*" />
+
+        <Button
+            android:id="@+id/btnDiv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#d4e6f1"
+            android:textColor="#212f3d"
+            android:layout_margin="5dp"
+            android:text="/" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
